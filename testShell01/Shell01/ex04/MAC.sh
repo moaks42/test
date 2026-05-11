@@ -1,1 +1,1 @@
-cat /sys/class/net/*/address
+ifconfig -a | grep ether | awk '{print $2}'
