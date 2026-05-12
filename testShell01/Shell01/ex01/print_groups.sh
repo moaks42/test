@@ -1,2 +1,1 @@
-groups | tr ' ' ','
-env | grep FT_USER
+groups $FT_USER | tr ' ' ','
